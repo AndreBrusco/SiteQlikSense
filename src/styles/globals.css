@@ -1,0 +1,18 @@
+/* src/styles/globals.css */
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+@import "tailwindcss/components";
+
+/* Estilo Global Personalizado */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans, Arial, sans-serif);
+}
