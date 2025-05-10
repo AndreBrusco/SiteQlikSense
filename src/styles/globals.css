@@ -1,9 +1,9 @@
 /* src/styles/globals.css */
 @import "tailwindcss/preflight";
-@import "tailwindcss/utilities";
 @import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
-/* Estilo Global Personalizado */
+/* Estilos Personalizados */
 :root {
   --background: #ffffff;
   --foreground: #171717;
